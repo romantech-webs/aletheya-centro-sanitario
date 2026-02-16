@@ -1,307 +1,351 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Aletheya - Centro Sanitario Polivalente",
+  logo: "/images/logo.png",
+  tagline: "Tu bienestar en movimiento en Guadalajara",
+  description: "Aletheya es un Centro Sanitario Polivalente en Guadalajara especializado en fisioterapia, pilates terapéutico y entrenamiento funcional. Dirigido por profesionales comprometidos, ofrecemos un espacio único donde conocer tu cuerpo y trabajarlo de manera eficaz. Con 5 estrellas en Google y más de 64 reseñas, nuestros clientes destacan la atención personalizada, las clases completas y el enfoque integral que combina movimiento, respiración y meditación.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#9c7446",
+    secondary: "#35272c",
+    accent: "#35272c",
+    neutral: "#f7f4f0"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "696 77 49 42",
+  whatsapp: "+34696774942",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Centro Sanitario, C. Río Badiel, 6, local 9, 19200 Azuqueca de Henares, Guadalajara, España",
+    city: "Guadalajara",
+    province: "Toledo",
+    postalCode: "19200",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=12112914121747228494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Aletheya%20-%20Centro%20Sanitario%20Polivalente%20%4040.5736%2C-3.26222&z=16&output=embed",
+  coordinates: {
+    lat: 40.5736,
+    lng: -3.26222
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "Lunes - Viernes",
+      hours: "09:00 - 20:00"
+    },
+    {
+      days: "Sábado",
+      hours: "Consultar"
+    },
+    {
+      days: "Domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 64,
+    url: "https://maps.google.com/?cid=12112914121747228494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Isabel Santamaría Pezuela",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Quería compartir una reseña muy positiva sobre el centro Aletheya y especialmente, sobre las clases de pilates que imparte Letizia Moza. Ella es una profesional extraordinaria que trabaja de una manera comprometida y profesional durante todas las clases. Las sesiones son muy completas , enfocando cada sesión en un tema en concreto trabajándolo con diferentes ejercicios y utilizando materiales diferentes.La atención es maravillosa y personalizada.Los beneficios son muchos y siempre te quedas con ganas de más. Cada día que voy  salgo con ganas de volver. Lo recomiendo 100 %.",
+        date: "Hace 11 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "M.C M.C",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Más que una reseña quiero hacer una recomendación a todas las personas que estén buscando mejorar su salud y no encuentran su sitio.\nNo es una clase de pilates ni es un gimnasio, es un espacio donde ir a conocer tu cuerpo y trabajarlo de manera eficaz.\nCada clase es diferente, estiramientos, fuerza, equilibrio, respiración y movimiento funcional.\nLlevo más de 6 años y nunca dejo de aprender.\nA Leticia solo puedo darle las GRACIAS",
+        date: "Hace 4 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Alba Blanco",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Estoy encantada con las clases de pilates de Leticia. Es una profesional maravillosa, cercana y atenta. Sus sesiones me han ayudado enormemente en todos los aspectos, y las meditaciones que incorpora marcan una diferencia increíble. ¡Totalmente recomendable!",
+        date: "Hace 11 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Ines Gonzalez",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Este sitio es especial, las clases son fantásticas las compañeras tb y que decir de Leticia la profe, es encantadora. Y algo muy importante flexibilidad para no perder las clases a las que no puedas asistir por asuntos personales.",
+        date: "Hace 2 meses"
       },
-    ],
+      {
+        author: "Mary Paz Martínez",
+        rating: 5,
+        text: "Muy contenta de ir a tus clases Leticia, en cada clase pones un pedacito de corazón,  se nota que te gusta tu trabajo, haces las clases muy amenas, gracias",
+        date: "Hace 2 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "pilates-terapeutico",
+      name: "Pilates Terapéutico",
+      description: "Clases completas y personalizadas donde cada sesión se enfoca en un tema concreto trabajado con diferentes ejercicios y materiales. No son clases convencionales: aquí aprendes a conocer tu cuerpo y trabajarlo de manera eficaz con atención individualizada en grupos reducidos.",
+      benefits: [
+        "Sesiones siempre diferentes y adaptadas a tus necesidades",
+        "Atención personalizada en cada clase",
+        "Mejora de fuerza, equilibrio y movilidad funcional"
+      ],
+      icon: "Activity"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Tratamiento especializado con técnicas manuales para aliviar el dolor, mejorar la movilidad articular y tratar lesiones. Nuestro enfoque profesional combina la terapia manual con ejercicio terapéutico para resultados duraderos.",
+      benefits: [
+        "Alivio efectivo del dolor musculoesquelético",
+        "Recuperación de la movilidad y funcionalidad",
+        "Tratamiento personalizado según tu patología"
+      ],
+      icon: "Hand"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "entrenamiento-funcional",
+      name: "Entrenamiento Funcional",
+      description: "Programa de movimiento funcional diseñado para mejorar tu capacidad física en las actividades cotidianas. Trabajamos fuerza, equilibrio, coordinación y resistencia de forma integrada y progresiva.",
+      benefits: [
+        "Mejora de la fuerza y resistencia general",
+        "Mayor autonomía en actividades diarias",
+        "Prevención de lesiones y caídas"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "yoga-terapeutico",
+      name: "Yoga Terapéutico",
+      description: "Sesiones de yoga adaptado con enfoque terapéutico que integran posturas, respiración consciente y meditación. Un espacio para conectar cuerpo y mente mientras trabajas tu flexibilidad, fuerza y equilibrio emocional.",
+      benefits: [
+        "Reducción del estrés y ansiedad",
+        "Mejora de la flexibilidad y postura corporal",
+        "Mayor conciencia corporal y bienestar mental"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "estiramientos-movilidad",
+      name: "Estiramientos y Movilidad",
+      description: "Sesiones específicas de trabajo de flexibilidad y movilidad articular. Cada clase incluye técnicas de estiramiento activo y pasivo adaptadas para mejorar tu rango de movimiento y prevenir rigidez.",
+      benefits: [
+        "Mayor amplitud de movimiento articular",
+        "Prevención de contracturas y rigidez",
+        "Mejora de la postura y alineación corporal"
+      ],
+      icon: "Activity"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "tecnicas-respiracion",
+      name: "Técnicas de Respiración",
+      description: "Aprendizaje de patrones respiratorios correctos integrados en el movimiento. La respiración consciente potencia los beneficios de cada ejercicio y mejora tu capacidad pulmonar y gestión del estrés.",
+      benefits: [
+        "Mejor oxigenación y rendimiento físico",
+        "Control del estrés y la ansiedad",
+        "Mayor conexión mente-cuerpo"
+      ],
+      icon: "Heart"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "meditacion-mindfulness",
+      name: "Meditación y Mindfulness",
+      description: "Incorporamos prácticas de meditación en nuestras sesiones que marcan una diferencia increíble en tu bienestar general. Técnicas de atención plena que complementan el trabajo físico para una recuperación integral.",
+      benefits: [
+        "Reducción significativa del estrés",
+        "Mayor claridad mental y concentración",
+        "Bienestar emocional duradero"
+      ],
+      icon: "Heart"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "rehabilitacion-deportiva",
+      name: "Rehabilitación Deportiva",
+      description: "Programas de recuperación específicos para deportistas y personas activas. Combinamos fisioterapia, ejercicio terapéutico y reentrenamiento funcional para que vuelvas a tu actividad de forma segura.",
+      benefits: [
+        "Recuperación completa de lesiones deportivas",
+        "Prevención de recaídas",
+        "Retorno progresivo a la actividad deportiva"
+      ],
+      icon: "Target"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 696 77 49 42 o escríbenos por WhatsApp para conocer nuestras clases y servicios. Te informaremos sobre horarios, grupos disponibles y el enfoque personalizado que ofrecemos en Aletheya."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Primera Sesión de Valoración",
+      description: "En tu primera visita conoceremos tu estado físico actual, objetivos y necesidades específicas. Evaluaremos tu movilidad, fuerza y equilibrio para diseñar un plan de trabajo adaptado completamente a ti."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Sesiones Personalizadas",
+      description: "Cada clase es diferente: trabajarás estiramientos, fuerza, equilibrio, respiración y movimiento funcional con materiales variados. La atención es individualizada incluso en grupo, enfocándonos en lo que tu cuerpo necesita cada día."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Evolución Continua",
+      description: "Realizamos seguimiento constante de tu progreso y adaptamos las sesiones según tu evolución. Nunca dejas de aprender sobre tu cuerpo. Además, ofrecemos flexibilidad para recuperar clases que no puedas asistir por motivos personales."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valoración Excelente: 5★ en Google",
+      description: "Más de 64 clientes nos han valorado con 5 estrellas en Google, destacando la profesionalidad, atención personalizada y los resultados reales que experimentan. Nuestros clientes llevan años con nosotros y recomiendan Aletheya al 100% porque cada sesión marca la diferencia en su bienestar.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Atención Verdaderamente Personalizada",
+      description: "Aunque trabajemos en grupos reducidos, la atención es individualizada. Conocemos tu cuerpo, tus necesidades y adaptamos cada ejercicio a ti. Nuestros clientes destacan que nunca han encontrado un sitio con tanta personalización y seguimiento continuo de su evolución.",
+      icon: "Target"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Cada Sesión es Diferente y Completa",
+      description: "Nunca repetimos clases. Cada sesión se enfoca en aspectos específicos trabajados con ejercicios y materiales variados: estiramientos, fuerza, equilibrio, respiración y meditación. Nuestros clientes con más de 6 años de experiencia aseguran que nunca dejan de aprender sobre su cuerpo.",
+      icon: "Activity"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Profesionales Comprometidos y Cercanos",
+      description: "Nuestro equipo, liderado por Leticia Moza, trabaja con pasión y compromiso en cada clase. Los clientes destacan la cercanía, profesionalidad y el corazón que ponemos en cada sesión. Además, ofrecemos flexibilidad para recuperar clases y adaptarnos a tus circunstancias personales.",
+      icon: "Heart"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Leticia Moza",
+      role: "Directora y Especialista en Pilates Terapéutico",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Aletheya - Centro Sanitario Polivalente nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 1"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Aletheya - Centro Sanitario Polivalente - Imagen 6"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué diferencia a Aletheya de un gimnasio o centro de pilates convencional?",
+      answer: "Aletheya no es un gimnasio ni clases estándar de pilates. Somos un centro sanitario polivalente donde aprendes a conocer tu cuerpo y trabajarlo de manera eficaz. Cada sesión es diferente y se enfoca en aspectos específicos: estiramientos, fuerza, equilibrio, respiración y movimiento funcional. La atención es personalizada incluso en grupos reducidos, y nuestros profesionales tienen formación sanitaria especializada. Nuestros clientes con más de 6 años de experiencia destacan que nunca dejan de aprender."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Quién imparte las clases en Aletheya?",
+      answer: "Nuestras clases están dirigidas por Leticia Moza, una profesional extraordinaria valorada con 5 estrellas por nuestros clientes. Leticia trabaja de manera comprometida y profesional, creando sesiones completas que combinan pilates terapéutico, ejercicio funcional, técnicas de respiración y meditación. Los clientes destacan su cercanía, atención personalizada y la pasión que pone en cada clase."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Ofrecen servicios de fisioterapia además de las clases?",
+      answer: "Sí, Aletheya es un centro sanitario polivalente que combina servicios de fisioterapia manual y rehabilitación con clases terapéuticas de pilates, yoga y entrenamiento funcional. Este enfoque integral nos permite abordar tu salud desde múltiples perspectivas: tratamiento de lesiones, prevención, fortalecimiento y bienestar general. Puedes combinar sesiones de fisioterapia con clases grupales según tus necesidades."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué incluyen las sesiones de pilates terapéutico?",
+      answer: "Cada sesión es completa y diferente, enfocada en un tema concreto trabajado con diversos ejercicios y materiales variados. Incluimos trabajo de fuerza, estiramientos, equilibrio, respiración consciente y movimiento funcional. Además, incorporamos meditaciones que nuestros clientes destacan como un elemento diferenciador increíble. La atención es personalizada en grupos reducidos para asegurar la correcta ejecución y adaptación a cada persona."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué flexibilidad ofrecen con los horarios y asistencia?",
+      answer: "En Aletheya entendemos que la vida tiene imprevistos. Ofrecemos flexibilidad para que no pierdas las clases a las que no puedas asistir por asuntos personales, permitiéndote recuperarlas en otros horarios disponibles. Esta flexibilidad es uno de los aspectos que nuestros clientes más valoran, junto con la variedad de horarios que ofrecemos para adaptarnos a diferentes necesidades."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Las clases son adecuadas para principiantes?",
+      answer: "Absolutamente. En Aletheya trabajamos con personas de todos los niveles, desde principiantes hasta quienes llevan años practicando. La clave es nuestra atención personalizada: aunque las clases sean grupales, adaptamos ejercicios y materiales a las capacidades de cada persona. Muchos de nuestros clientes llegaron sin experiencia previa y ahora llevan años aprendiendo y mejorando continuamente su salud y bienestar."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Cómo puedo solicitar información o reservar mi primera clase?",
+      answer: "Puedes contactarnos llamando al 696 77 49 42 o escribirnos por WhatsApp. Te informaremos sobre nuestros servicios, horarios disponibles, grupos y tarifas. También resolveremos todas tus dudas sobre nuestro método de trabajo y podrás conocer las experiencias de nuestros más de 64 clientes que nos han valorado con 5 estrellas en Google."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Por qué los clientes recomiendan Aletheya?",
+      answer: "Nuestros clientes destacan tres aspectos fundamentales: la profesionalidad y cercanía de nuestro equipo, especialmente de Leticia; las sesiones completas, variadas y efectivas que nunca se repiten; y los resultados reales en su salud y bienestar. Con 5 estrellas en Google y 64 reseñas, nuestros clientes valoran que cada clase incluya un pedacito de corazón y que salgan siempre con ganas de volver. Muchos llevan más de 6 años con nosotros."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Aletheya - Centro Sanitario Polivalente",
+    defaultTitle: "Aletheya - Centro Sanitario y Pilates en Guadalajara",
+    defaultDescription: "Centro sanitario en Guadalajara especializado en fisioterapia, pilates terapéutico y entrenamiento funcional. Atención personalizada con 5★ en Google. Llama al 696 77 49 42.",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Guadalajara",
+      "pilates terapéutico Guadalajara",
+      "Aletheya Guadalajara",
+      "centro sanitario Guadalajara",
+      "yoga terapéutico Guadalajara",
+      "entrenamiento funcional Guadalajara",
+      "rehabilitación Guadalajara",
+      "fisioterapeuta Guadalajara",
+      "clases pilates Guadalajara",
+      "meditación Guadalajara",
+      "Leticia Moza pilates",
+      "centro polivalente Guadalajara"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Aletheya - Centro Sanitario Polivalente",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Centro Sanitario, C. Río Badiel, 6, local 9, 19200 Azuqueca de Henares, Guadalajara, España, Guadalajara, Toledo"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Guadalajara"
+  ],
+  heroDescription: "En Aletheya no encontrarás un gimnasio convencional ni clases estándar. Somos un centro donde aprender a conocer tu cuerpo y mejorar tu salud de forma eficaz. Combinamos fisioterapia profesional con pilates terapéutico, entrenamiento funcional y técnicas de respiración y meditación para tu bienestar integral.",
+  specialty: "Pilates Terapéutico",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Preparado para conocer tu cuerpo y mejorar tu salud?",
+  ctaDescription: "Únete a nuestro centro en Guadalajara y descubre un espacio donde cada sesión es diferente y adaptada a ti. Solicita información sobre nuestras clases y servicios sin compromiso.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
